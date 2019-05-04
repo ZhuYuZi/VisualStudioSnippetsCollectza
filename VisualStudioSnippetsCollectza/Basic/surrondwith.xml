@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Surround</Title>
+      <Shortcut>Surround</Shortcut>
+      <Description>包围内容</Description>
+      <Author>ZhuYuZi</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>symbolLeft</ID>
+          <ToolTip>左侧符号</ToolTip>
+          <Default>{</Default>
+        </Literal>
+        <Literal>
+          <ID>symbolRight</ID>
+          <ToolTip>右侧符号</ToolTip>
+          <Default>}</Default>
+        </Literal>
+
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[($symbolLeft$)$selected$ $end$($symbolRight$)]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>

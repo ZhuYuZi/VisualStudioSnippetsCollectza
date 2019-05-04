@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>unitydebug</Title>
+      <Shortcut>udb</Shortcut>
+      <Description>UnityDebug 语句的代码片段</Description>
+      <Author>ZhuYuZi</Author>
+      <SnippetTypes>
+        <SnippetType>Expansion</SnippetType>
+        <SnippetType>SurroundsWith</SnippetType>
+      </SnippetTypes>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>method</ID>
+          <ToolTip>要Debug的方式</ToolTip>
+          <Default>Log</Default>
+        </Literal>
+        <Literal>
+          <ID>target</ID>
+          <ToolTip>Debug附加的Mono类实例</ToolTip>
+          <Default>this</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+        <![CDATA[Debug.$expression$($selected$ $end$,$target$)]]>
+      </Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
