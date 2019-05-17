@@ -2,10 +2,10 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>#ifelse</Title>
-      <Shortcut>#ifelse</Shortcut>
-      <Description>#ifelse 的代码片段</Description>
-      <Author>ZhuYuZi</Author>
+      <Title>trynocase</Title>
+      <Shortcut>trynocase</Shortcut>
+      <Description>try catch 的代码片段</Description>
+      <Author>Microsoft Corporation</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
         <SnippetType>SurroundsWith</SnippetType>
@@ -15,16 +15,12 @@
       <Declarations>
         <Literal>
           <ID>expression</ID>
-          <ToolTip>要计算的预处理器表达式</ToolTip>
-          <Default>true</Default>
+          <ToolTip>异常类型</ToolTip>
+          <Function>SimpleTypeName(global::System.Exception)</Function>
         </Literal>
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[#if $expression$
-		$selected$ $end$ 
-    #else
-    
-	#endif]]>
+        <![CDATA[try {$selected$$end$} catch{}]]>
       </Code>
     </Snippet>
   </CodeSnippet>
