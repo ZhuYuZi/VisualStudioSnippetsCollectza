@@ -18,14 +18,14 @@
           <ToolTip>要Debug的方式</ToolTip>
           <Default>Log</Default>
         </Literal>
-        <Literal>
+        <!--<Literal>
           <ID>target</ID>
           <ToolTip>Debug附加的Mono类实例</ToolTip>
           <Default>this</Default>
-        </Literal>
+        </Literal>-->
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[Debug.$expression$($selected$ $end$,$target$)]]>
+        <![CDATA[Debug.$expression$($selected$ $end$);]]>
       </Code>
     </Snippet>
   </CodeSnippet>

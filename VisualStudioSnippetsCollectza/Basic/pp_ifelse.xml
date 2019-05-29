@@ -23,7 +23,6 @@
         <![CDATA[#if $expression$
 		$selected$ $end$ 
     #else
-    
 	#endif]]>
       </Code>
     </Snippet>
