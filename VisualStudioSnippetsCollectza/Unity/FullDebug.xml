@@ -5,7 +5,7 @@
       <Title>unityfulldebug</Title>
       <Shortcut>ufdb</Shortcut>
       <Description>UnityEngine.Debug 语句的代码片段</Description>
-      <Author>ZhuYuZi</Author>
+      <Author>筑于梓</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
         <SnippetType>SurroundsWith</SnippetType>

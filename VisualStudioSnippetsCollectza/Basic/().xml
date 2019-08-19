@@ -5,15 +5,13 @@
       <Title>()</Title>
       <Shortcut>90</Shortcut>
       <Description>运算优先级</Description>
-      <Author>ZhuYuZi</Author>
+      <Author>筑于梓</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
         <SnippetType>SurroundsWith</SnippetType>
       </SnippetTypes>
     </Header>
     <Snippet>
-      <Declarations>
-      </Declarations>
       <Code Language="csharp">
         <![CDATA[($selected$$end$)]]>
       </Code>

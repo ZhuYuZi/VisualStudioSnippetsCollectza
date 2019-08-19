@@ -19,7 +19,7 @@ namespace VisualStudioSnippetsCollectza {
     // 类通过类似于 ResGen 或 Visual Studio 的工具自动生成的。
     // 若要添加或移除成员，请编辑 .ResX 文件，然后重新运行 ResGen
     // (以 /str 作为命令选项)，或重新生成 VS 项目。
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class snippets {
@@ -68,15 +68,15 @@ namespace VisualStudioSnippetsCollectza {
         ///      &lt;Title&gt;()&lt;/Title&gt;
         ///      &lt;Shortcut&gt;90&lt;/Shortcut&gt;
         ///      &lt;Description&gt;运算优先级&lt;/Description&gt;
-        ///      &lt;Author&gt;ZhuYuZi&lt;/Author&gt;
+        ///      &lt;Author&gt;筑于梓&lt;/Author&gt;
         ///      &lt;SnippetTypes&gt;
         ///        &lt;SnippetType&gt;Expansion&lt;/SnippetType&gt;
         ///        &lt;SnippetType&gt;SurroundsWith&lt;/SnippetType&gt;
         ///      &lt;/SnippetTypes&gt;
         ///    &lt;/Header&gt;
         ///    &lt;Snippet&gt;
-        ///      &lt;Declarations&gt;
-        ///      &lt;/Declarations&gt;        /// [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///      &lt;Code Language=&quot;csharp&quot;&gt;
+        ///        &lt;![CDATA [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         public static string __ {
             get {
@@ -92,7 +92,7 @@ namespace VisualStudioSnippetsCollectza {
         ///      &lt;Title&gt;explicit(())&lt;/Title&gt;
         ///      &lt;Shortcut&gt;9900&lt;/Shortcut&gt;
         ///      &lt;Description&gt;强制转换&lt;/Description&gt;
-        ///      &lt;Author&gt;ZhuYuZi&lt;/Author&gt;
+        ///      &lt;Author&gt;筑于梓&lt;/Author&gt;
         ///      &lt;SnippetTypes&gt;
         ///        &lt;SnippetType&gt;Expansion&lt;/SnippetType&gt;
         ///        &lt;SnippetType&gt;SurroundsWith&lt;/SnippetType&gt;
@@ -100,7 +100,7 @@ namespace VisualStudioSnippetsCollectza {
         ///    &lt;/Header&gt;
         ///    &lt;Snippet&gt;
         ///      &lt;Declarations&gt;
-        ///        &lt;Li [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///        &lt;Litera [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         public static string @__explicit__ {
             get {
@@ -116,7 +116,7 @@ namespace VisualStudioSnippetsCollectza {
         ///      &lt;Title&gt;as_is&lt;/Title&gt;
         ///      &lt;Shortcut&gt;asoris&lt;/Shortcut&gt;
         ///      &lt;Description&gt;转换与类型检查&lt;/Description&gt;
-        ///      &lt;Author&gt;ZhuYuZi&lt;/Author&gt;
+        ///      &lt;Author&gt;筑于梓&lt;/Author&gt;
         ///      &lt;SnippetTypes&gt;
         ///        &lt;SnippetType&gt;Expansion&lt;/SnippetType&gt;
         ///        &lt;SnippetType&gt;SurroundsWith&lt;/SnippetType&gt;
@@ -124,7 +124,7 @@ namespace VisualStudioSnippetsCollectza {
         ///    &lt;/Header&gt;
         ///    &lt;Snippet&gt;
         ///      &lt;Declarations&gt;
-        ///        &lt;Lite [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///        &lt;Literal&gt; [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         public static string asOris {
             get {
@@ -140,7 +140,7 @@ namespace VisualStudioSnippetsCollectza {
         ///      &lt;Title&gt;unitydebug&lt;/Title&gt;
         ///      &lt;Shortcut&gt;udb&lt;/Shortcut&gt;
         ///      &lt;Description&gt;UnityDebug 语句的代码片段&lt;/Description&gt;
-        ///      &lt;Author&gt;ZhuYuZi&lt;/Author&gt;
+        ///      &lt;Author&gt;筑于梓&lt;/Author&gt;
         ///      &lt;SnippetTypes&gt;
         ///        &lt;SnippetType&gt;Expansion&lt;/SnippetType&gt;
         ///        &lt;SnippetType&gt;SurroundsWith&lt;/SnippetType&gt;
@@ -148,7 +148,7 @@ namespace VisualStudioSnippetsCollectza {
         ///    &lt;/Header&gt;
         ///    &lt;Snippet&gt;
         ///      &lt;Declarations&gt;
-        /// [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///     [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         public static string Debug {
             get {
@@ -161,18 +161,17 @@ namespace VisualStudioSnippetsCollectza {
         ///&lt;CodeSnippets xmlns=&quot;http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet&quot;&gt;
         ///  &lt;CodeSnippet Format=&quot;1.0.0&quot;&gt;
         ///    &lt;Header&gt;
-        ///      &lt;Title&gt;unitydebug&lt;/Title&gt;
-        ///      &lt;Shortcut&gt;udb&lt;/Shortcut&gt;
-        ///      &lt;Description&gt;UnityDebug 语句的代码片段&lt;/Description&gt;
-        ///      &lt;Author&gt;ZhuYuZi&lt;/Author&gt;
+        ///      &lt;Title&gt;unityfulldebug&lt;/Title&gt;
+        ///      &lt;Shortcut&gt;ufdb&lt;/Shortcut&gt;
+        ///      &lt;Description&gt;UnityEngine.Debug 语句的代码片段&lt;/Description&gt;
+        ///      &lt;Author&gt;筑于梓&lt;/Author&gt;
         ///      &lt;SnippetTypes&gt;
         ///        &lt;SnippetType&gt;Expansion&lt;/SnippetType&gt;
         ///        &lt;SnippetType&gt;SurroundsWith&lt;/SnippetType&gt;
         ///      &lt;/SnippetTypes&gt;
         ///    &lt;/Header&gt;
         ///    &lt;Snippet&gt;
-        ///      &lt;Declarations&gt;
-        /// [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///      &lt;Declara [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         public static string FullDebug {
             get {
@@ -185,10 +184,35 @@ namespace VisualStudioSnippetsCollectza {
         ///&lt;CodeSnippets xmlns=&quot;http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet&quot;&gt;
         ///  &lt;CodeSnippet Format=&quot;1.0.0&quot;&gt;
         ///    &lt;Header&gt;
-        ///      &lt;Title&gt;#if&lt;/Title&gt;
-        ///      &lt;Shortcut&gt;#if&lt;/Shortcut&gt;
-        ///      &lt;Description&gt;#if 的代码片段&lt;/Description&gt;
-        ///      &lt;Author&gt;Microsoft Corporation&lt;/Author&gt;
+        ///      &lt;Title&gt;invoke&lt;/Title&gt;
+        ///      &lt;Shortcut&gt;invoke&lt;/Shortcut&gt;
+        ///      &lt;Description&gt;安全调用事件的代码片段&lt;/Description&gt;
+        ///      &lt;Author&gt;筑于梓&lt;/Author&gt;
+        ///      &lt;SnippetTypes&gt;
+        ///        &lt;SnippetType&gt;Expansion&lt;/SnippetType&gt;
+        ///      &lt;/SnippetTypes&gt;
+        ///    &lt;/Header&gt;
+        ///    &lt;Snippet&gt;
+        ///      &lt;Declarations&gt;
+        ///        &lt;Literal&gt;
+        ///          &lt;ID&gt;event&lt;/ID&gt;
+        ///          &lt;Defaul [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        public static string invoke {
+            get {
+                return ResourceManager.GetString("invoke", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;CodeSnippets xmlns=&quot;http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet&quot;&gt;
+        ///  &lt;CodeSnippet Format=&quot;1.0.0&quot;&gt;
+        ///    &lt;Header&gt;
+        ///      &lt;Title&gt;call()&lt;/Title&gt;
+        ///      &lt;Shortcut&gt;call&lt;/Shortcut&gt;
+        ///      &lt;Description&gt;调用方法&lt;/Description&gt;
+        ///      &lt;Author&gt;筑于梓&lt;/Author&gt;
         ///      &lt;SnippetTypes&gt;
         ///        &lt;SnippetType&gt;Expansion&lt;/SnippetType&gt;
         ///        &lt;SnippetType&gt;SurroundsWith&lt;/SnippetType&gt;
@@ -196,7 +220,32 @@ namespace VisualStudioSnippetsCollectza {
         ///    &lt;/Header&gt;
         ///    &lt;Snippet&gt;
         ///      &lt;Declarations&gt;
+        ///        &lt;Literal&gt;
         ///   [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        public static string Method__ {
+            get {
+                return ResourceManager.GetString("Method__", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+        ///&lt;CodeSnippets xmlns=&quot;http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet&quot;&gt;
+        ///  &lt;CodeSnippet Format=&quot;1.0.0&quot;&gt;
+        ///    &lt;Header&gt;
+        ///      &lt;Title&gt;#ifelse&lt;/Title&gt;
+        ///      &lt;Shortcut&gt;#ifelse&lt;/Shortcut&gt;
+        ///      &lt;Description&gt;#ifelse 的代码片段&lt;/Description&gt;
+        ///      &lt;Author&gt;筑于梓&lt;/Author&gt;
+        ///      &lt;SnippetTypes&gt;
+        ///        &lt;SnippetType&gt;Expansion&lt;/SnippetType&gt;
+        ///        &lt;SnippetType&gt;SurroundsWith&lt;/SnippetType&gt;
+        ///      &lt;/SnippetTypes&gt;
+        ///    &lt;/Header&gt;
+        ///    &lt;Snippet&gt;
+        ///      &lt;Declarations&gt;
+        ///         [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         public static string pp_ifelse {
             get {
@@ -212,7 +261,7 @@ namespace VisualStudioSnippetsCollectza {
         ///      &lt;Title&gt;Surround&lt;/Title&gt;
         ///      &lt;Shortcut&gt;Surround&lt;/Shortcut&gt;
         ///      &lt;Description&gt;包围内容&lt;/Description&gt;
-        ///      &lt;Author&gt;ZhuYuZi&lt;/Author&gt;
+        ///      &lt;Author&gt;筑于梓&lt;/Author&gt;
         ///      &lt;SnippetTypes&gt;
         ///        &lt;SnippetType&gt;Expansion&lt;/SnippetType&gt;
         ///        &lt;SnippetType&gt;SurroundsWith&lt;/SnippetType&gt;
@@ -220,7 +269,7 @@ namespace VisualStudioSnippetsCollectza {
         ///    &lt;/Header&gt;
         ///    &lt;Snippet&gt;
         ///      &lt;Declarations&gt;
-        ///        &lt;Li [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///        &lt;Litera [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         public static string surrondwith {
             get {

@@ -5,6 +5,7 @@ namespace VisualStudioSnippetsCollectza {
     static void Main(string[] args) {
       Console.WriteLine("Hello World!");
       //TODO Copy Them
+
     }
    
   }

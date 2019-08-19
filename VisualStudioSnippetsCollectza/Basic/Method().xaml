@@ -2,9 +2,9 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>#ifelse</Title>
-      <Shortcut>#ifelse</Shortcut>
-      <Description>#ifelse 的代码片段</Description>
+      <Title>call()</Title>
+      <Shortcut>call</Shortcut>
+      <Description>调用方法</Description>
       <Author>筑于梓</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -14,16 +14,13 @@
     <Snippet>
       <Declarations>
         <Literal>
-          <ID>expression</ID>
-          <ToolTip>要计算的预处理器表达式</ToolTip>
-          <Default>true</Default>
+          <ID>Method</ID>
+          <ToolTip>要调用的方法</ToolTip>
+          <Default></Default>
         </Literal>
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[#if $expression$
-		$selected$ $end$ 
-    #else
-	#endif]]>
+        <![CDATA[$Method$($selected$$end$)]]>
       </Code>
     </Snippet>
   </CodeSnippet>

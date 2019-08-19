@@ -5,7 +5,7 @@
       <Title>unitydebug</Title>
       <Shortcut>udb</Shortcut>
       <Description>UnityDebug 语句的代码片段</Description>
-      <Author>ZhuYuZi</Author>
+      <Author>筑于梓</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
         <SnippetType>SurroundsWith</SnippetType>
