@@ -16,6 +16,7 @@
         <Literal>
           <ID>type</ID>
           <ToolTip>类型</ToolTip>
+          <Default>object[]</Default>
         </Literal>
       </Declarations>
       <Code Language="csharp">
