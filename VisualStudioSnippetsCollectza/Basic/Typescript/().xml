@@ -1,9 +1,10 @@
-<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+<CodeSnippet Format="1.1.0"
+             xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>do</Title>
-    <Author>Microsoft Corporation</Author>
-    <Shortcut>do</Shortcut>
-    <Description>Fragmento de código para un bucle do...while.</Description>
+    <Title>()</Title>
+    <Shortcut>90</Shortcut>
+    <Description>运算优先级</Description>
+    <Author>筑于梓</Author>
     <SnippetTypes>
       <SnippetType>Expansion</SnippetType>
       <SnippetType>SurroundsWith</SnippetType>
