@@ -34,19 +34,10 @@
         </Literal>
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[
-// Using a DependencyProperty as the backing store for $property$.  This enables animation, styling, binding, etc...
+        <![CDATA[public static $type$ Get$property$(DependencyObject obj) => ($type$)obj.GetValue($property$Property);
+public static void Set$property$(DependencyObject obj, $type$ value) => obj.SetValue($property$Property, value);
 public static readonly DependencyProperty $property$Property =
-    DependencyProperty.RegisterAttached("$property$", typeof($type$), typeof($ownerclass$), new PropertyMetadata($defaultvalue$));                
-public static $type$ Get$property$(DependencyObject obj)
-{
-    return ($type$)obj.GetValue($property$Property);
-}
-public static void Set$property$(DependencyObject obj, $type$ value)
-{
-    obj.SetValue($property$Property, value);
-}
-$end$]]>
+    DependencyProperty.RegisterAttached("$property$", typeof($type$), typeof($ownerclass$), new PropertyMetadata($defaultvalue$));$end$]]>
       </Code>
     </Snippet>
   </CodeSnippet>

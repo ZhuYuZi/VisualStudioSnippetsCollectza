@@ -2,10 +2,10 @@
 <CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>Define a DependencyProperty</Title>
-      <Shortcut>propdp</Shortcut>
+      <Title>Define a ReadonlyDependencyProperty</Title>
+      <Shortcut>rpropdp</Shortcut>
       <Description>Code snippet for a property using DependencyProperty as the backing store</Description>
-      <Author>Microsoft Corporation</Author>
+      <Author>筑于梓</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
       </SnippetTypes>
@@ -34,10 +34,11 @@
         </Literal>
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[public $type$ $property${ get => return ($type$)GetValue($property$Property); set => SetValue($property$Property, value); }
-public static readonly DependencyProperty $property$Property 
-  = DependencyProperty.Register("$property$", typeof($type$), typeof($ownerclass$), new PropertyMetadata($defaultvalue$));$end$]]>
+        <![CDATA[public $type$ $property${ get => ($type$)GetValue($property$Property.DependencyProperty); protected set => SetValue($property$Property, value); }
+public static readonly DependencyPropertyKey $property$Property 
+  = DependencyProperty.RegisterReadOnly("$property$", typeof($type$), typeof($ownerclass$), new PropertyMetadata($defaultvalue$));$end$]]>
       </Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
+
