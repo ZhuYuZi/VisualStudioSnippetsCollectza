@@ -34,15 +34,9 @@
         </Literal>
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[
-// Using a BindableProperty as the backing store for $property$.  This enables animation, styling, binding, etc...
-public static readonly BindableProperty $property$Property = BindableProperty.Create("$property$", typeof($type$), typeof($ownerclass$), $defaultvalue$);
-public $type$ $property$
-{
-    get { return ($type$)GetValue($property$Property); }
-    set { SetValue($property$Property, value); }
-}
-$end$]]>
+        <![CDATA[public $type$ $property${ get => return ($type$)GetValue($property$Property); set => SetValue($property$Property, value); }
+public static readonly BindableProperty $property$Property 
+  = BindableProperty.Create("$property$", typeof($type$), typeof($ownerclass$), $defaultvalue$);$end$]]>
       </Code>
     </Snippet>
   </CodeSnippet>
