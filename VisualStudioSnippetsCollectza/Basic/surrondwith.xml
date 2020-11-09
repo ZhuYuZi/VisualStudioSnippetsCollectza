@@ -26,7 +26,7 @@
 
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[($symbolLeft$)$selected$ $end$($symbolRight$)]]>
+        <![CDATA[$symbolLeft$$selected$ $end$$symbolRight$]]>
       </Code>
     </Snippet>
   </CodeSnippet>
