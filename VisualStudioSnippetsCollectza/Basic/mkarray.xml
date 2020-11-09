@@ -2,9 +2,9 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>explicit(())</Title>
-      <Shortcut>9900</Shortcut>
-      <Description>强制转换</Description>
+      <Title>MakeArray</Title>
+      <Shortcut>mkarray</Shortcut>
+      <Description>创建数组或填充成员</Description>
       <Author>筑于梓</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
@@ -14,13 +14,13 @@
     <Snippet>
       <Declarations>
         <Literal>
-          <ID>ExplicitTargetType</ID>
-          <ToolTip>要转换的类型</ToolTip>
-          <Default>object</Default>
+          <ID>type</ID>
+          <ToolTip>类型</ToolTip>
+          <Default>object[]</Default>
         </Literal>
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[($ExplicitTargetType$)$selected$$end$]]>
+        <![CDATA[new $type${$selected$ $end$}]]>
       </Code>
     </Snippet>
   </CodeSnippet>

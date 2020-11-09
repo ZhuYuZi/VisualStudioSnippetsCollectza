@@ -1,0 +1,16 @@
+<CodeSnippet Format="1.1.0"
+             xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>()</Title>
+    <Shortcut>90</Shortcut>
+    <Description>运算优先级</Description>
+    <Author>筑于梓</Author>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+      <SnippetType>SurroundsWith</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Code Language="TypeScript"><![CDATA[($selected$$end$)]]></Code>
+  </Snippet>
+</CodeSnippet>

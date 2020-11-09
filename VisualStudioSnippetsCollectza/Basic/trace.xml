@@ -2,27 +2,24 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <CodeSnippet Format="1.0.0">
     <Header>
-      <Title>explicit(())</Title>
-      <Shortcut>9900</Shortcut>
-      <Description>强制转换</Description>
+      <Title>systrace</Title>
+      <Shortcut>tr</Shortcut>
+      <Description>Trace.WriteLine 的代码片段</Description>
       <Author>筑于梓</Author>
       <SnippetTypes>
         <SnippetType>Expansion</SnippetType>
-        <SnippetType>SurroundsWith</SnippetType>
       </SnippetTypes>
     </Header>
     <Snippet>
       <Declarations>
-        <Literal>
-          <ID>ExplicitTargetType</ID>
-          <ToolTip>要转换的类型</ToolTip>
-          <Default>object</Default>
+        <Literal Editable="false">
+          <ID>SystemDiagnostics</ID>
+          <Function>SimpleTypeName(global::System.Diagnostics.Trace)</Function>
         </Literal>
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[($ExplicitTargetType$)$selected$$end$]]>
+        <![CDATA[$SystemDiagnostics$.WriteLine($end$);]]>
       </Code>
     </Snippet>
   </CodeSnippet>
 </CodeSnippets>
-

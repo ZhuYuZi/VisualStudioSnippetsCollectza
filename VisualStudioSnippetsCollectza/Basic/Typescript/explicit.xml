@@ -1,0 +1,22 @@
+<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>explicit</Title>
+    <Author>筑于梓</Author>
+    <Shortcut>explicit</Shortcut>
+    <Description>Fragmento de código para un bucle do...while.</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+      <SnippetType>SurroundsWith</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>expression</ID>
+        <ToolTip>要转换的类型</ToolTip>
+        <Default>any</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="TypeScript"><![CDATA[<$expression$>($selected$$end$)]]></Code>
+  </Snippet>
+</CodeSnippet>
