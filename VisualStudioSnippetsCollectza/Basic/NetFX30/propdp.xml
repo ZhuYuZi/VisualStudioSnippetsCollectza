@@ -34,7 +34,7 @@
         </Literal>
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[public $type$ $property${ get => return ($type$)GetValue($property$Property); set => SetValue($property$Property, value); }
+        <![CDATA[public $type$ $property${ get => ($type$)GetValue($property$Property); set => SetValue($property$Property, value); }
 public static readonly DependencyProperty $property$Property 
   = DependencyProperty.Register("$property$", typeof($type$), typeof($ownerclass$), new PropertyMetadata($defaultvalue$));$end$]]>
       </Code>
