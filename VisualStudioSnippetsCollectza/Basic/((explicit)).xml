@@ -20,7 +20,7 @@
         </Literal>
       </Declarations>
       <Code Language="csharp">
-        <![CDATA[($ExplicitTargetType$)($selected$$end$)]]>
+        <![CDATA[(($ExplicitTargetType$)$selected$$end$)]]>
       </Code>
     </Snippet>
   </CodeSnippet>
